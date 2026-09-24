@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: auth-service
+    config:
+        import: optional:configserver:http://localhost:8888
+
+
+jwt-secret: chukibimatdetaorachuoitokenphaidudaineukhongsebinemloi
+jwt-expire: 3600000
+jwt-refresh-expire: 2592000000
